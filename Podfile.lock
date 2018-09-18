@@ -1,0 +1,16 @@
+PODS:
+  - NeshanMobileSDK (0.9.4)
+
+DEPENDENCIES:
+  - NeshanMobileSDK (~> 0.9.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - NeshanMobileSDK
+
+SPEC CHECKSUMS:
+  NeshanMobileSDK: 585abf2a6dbc147cf150c4f95770cf42128bdd69
+
+PODFILE CHECKSUM: 4e748a02ad1376ba12c3234ba08f885bca6814da
+
+COCOAPODS: 1.5.3
