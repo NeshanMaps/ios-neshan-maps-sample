@@ -28,7 +28,7 @@ To install NeshanMobileSDK pod, execute the following command:
 
 `pod install`
 
-If needed, run `pod update` after that too.
+If you already use previous versions of NeshanMobileSDK, you need to run `pod update` after that too.
 
 Wait until the installation is finished.
 
@@ -44,5 +44,5 @@ To create a licence file you need :
 
 Download `neshan.license` and drag it to your project with "Copy items if needed" option checked.
 
-#### 5) Edit Build Settings (for Xcodes 10 and later)
-remove `$(inherited)` and `-l"stdc++.6"` from `Other Linker Flags` of your project build settings.
+#### 5) Build your project
+If you encounter error with `ld: library not found for -lstdc++.6` message, remove `$(inherited)` and `-l"stdc++.6"` from `Other Linker Flags` of your project build settings.
